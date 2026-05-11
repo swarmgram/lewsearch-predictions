@@ -135,7 +135,8 @@ Return the JSON schema described in your system message."""
         print("Model did not return valid JSON. Raw:\n", raw[:4000], file=sys.stderr)
         raise SystemExit(2)
 
-    data.setdefault("model", args.model)
+    # Model sometimes echoes a label; always stamp the OpenRouter model id we called.
+    data["model"] = args.model
 
     out = json.dumps(data, indent=2) + "\n"
     if args.out:

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-11",
-  "notes": "Initial queue from public Pew May 2026 releases + expected follow-ups. Verify instrument text and population definition on Pew methodology pages before freezing runs.",
+  "notes": "Mix of post-hoc (released Pew URLs) and watchlist items. Prefer forward benchmarks: copy exact wording from a prior public Pew wave (e.g. May N-1), freeze, run Lewsearch before May N Pew drop; compare when published. Use scripts/discover_pew_benchmarks.py to refresh candidates.",
   "candidates": [
     {
       "id": "national-problems-healthcare-deficit-inflation-2026-05",
