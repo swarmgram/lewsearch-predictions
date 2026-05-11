@@ -1,0 +1,1546 @@
+{
+  "generated_at": "2026-05-11",
+  "model": "perplexity/sonar",
+  "passes_run": 10,
+  "unique_study_count": 30,
+  "studies": [
+    {
+      "id": "covid-vaccine-intentions-2024",
+      "title": "COVID Vaccine Intentions",
+      "series_hypothesis": "Pew annually benchmarks vaccine uptake and attitudes post-pandemic rollout",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Plans for updated COVID vaccine",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Reported topline stats from Oct 2024 survey; methodology links to survey of 9,593 adults; prior 2023 survey referenced for comparison; verbatim in topline PDF likely"
+    },
+    {
+      "id": "democracy-improvement-views-2024",
+      "title": "Views on improving democracy",
+      "series_hypothesis": "Pew follows up satisfaction measures with open/closed items on democratic reforms to track evolving priorities",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/global/2024/03/13/what-can-improve-democracy/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+      ],
+      "expected_next_window": "Spring 2026",
+      "extractable_items": [
+        {
+          "item_label": "Ways to strengthen democracy",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/global/2024/03/13/what-can-improve-democracy/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Same 2024 Global Attitudes wave as satisfaction study (24 countries); verbatim in survey topline/PDF; suitable for forward US/international institutional trust benchmarks"
+    },
+    {
+      "id": "democracy-satisfaction-high-income-2025",
+      "title": "Dissatisfaction with democracy in high-income nations",
+      "series_hypothesis": "Pew tracks satisfaction trends in advanced democracies annually to monitor political trust amid elections and economic shifts",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/short-reads/2025/06/30/dissatisfaction-with-democracy-remains-widespread-in-many-nations/",
+        "https://www.pewresearch.org/short-reads/2024/06/18/satisfaction-with-democracy-has-declined-in-recent-years-in-high-income-nations/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Satisfaction with democracy",
+          "question_text_verbatim": "How satisfied are you with the way democracy is working in our country?",
+          "response_options_verbatim": "Very satisfied, Somewhat satisfied, Somewhat dissatisfied, Very dissatisfied",
+          "source_url_for_wording": "https://www.pewresearch.org/short-reads/2024/06/18/satisfaction-with-democracy-has-declined-in-recent-years-in-high-income-nations/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Verified consistent wording across 2017-2025 waves in 12 high-income countries including US; 2025 survey spring data with topline trends; methodology from 2023/24 Global Attitudes Survey matches series"
+    },
+    {
+      "id": "economic-issues-voter-concerns-2024",
+      "title": "Economic Ratings and Issues",
+      "series_hypothesis": "Pew repeats economy pocketbook questions in pre-election issue priority polls",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/09/09/in-tight-presidential-race-biden-and-trump-have-contrasting-visions-for-the-future/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/09/09/methodology-23/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Most important problem",
+          "question_text_verbatim": "What do you think is the most important problem facing the country today?",
+          "response_options_verbatim": "Open-ended; top codes include economy, inflation",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/09/09/in-tight-presidential-race-biden-and-trump-have-contrasting-visions-for-the-future/"
+        },
+        {
+          "item_label": "Pocketbook concerns",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": ""
+        }
+      ],
+      "confidence": "medium",
+      "notes": "2024 election cycle survey; verbatim in topline PDF appendix at methodology link. Expect similar in 2026 midterm tracking."
+    },
+    {
+      "id": "election-news-consumption-2024",
+      "title": "2024 Election News Consumption & Trust",
+      "series_hypothesis": "Pew repeats election-cycle news consumption studies to benchmark trust, platform reliance, and misinformation exposure during high-stakes political periods.",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/"
+      ],
+      "expected_next_window": "May\u2013June 2026 (mid-cycle benchmark or 2028 election prep)",
+      "extractable_items": [
+        {
+          "item_label": "Election news sources and platforms (ATP Wave 155)",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/ (Sept 16\u201322, 2024; see topline for exact wording)"
+        },
+        {
+          "item_label": "Trust in election news coverage by outlet type",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/ (ATP Wave 155 questions in full report)"
+        },
+        {
+          "item_label": "Misinformation exposure and fact-checking awareness",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/ (see full report for detailed question wording)"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Confirmed October 2024 publication; ATP Wave 155 (Sept 16\u201322, 2024). Exact survey questions and response options in full topline report. May repeat in 2026 as mid-cycle benchmark or 2028 election prep cycle."
+    },
+    {
+      "id": "global-democracy-satisfaction-2024",
+      "title": "Satisfaction with democracy across 24 nations",
+      "series_hypothesis": "Pew's Global Attitudes Survey repeats democracy satisfaction to benchmark public support for representative systems worldwide",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/global/2024/02/28/satisfaction-with-democracy-and-ratings-for-political-leaders-parties/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+      ],
+      "expected_next_window": "Spring 2026",
+      "extractable_items": [
+        {
+          "item_label": "Democracy functioning satisfaction",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "2023/24 Spring Global Attitudes Survey (24 countries incl. US); exact wording in topline charts and PDF appendix; links to prior waves via methodology page"
+    },
+    {
+      "id": "immigration-attitudes-2024-election",
+      "title": "Immigration Attitudes 2024 Election",
+      "series_hypothesis": "Election cycle immigration trends via ATP",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/06/06/immigration-attitudes-and-the-2024-election/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/06/06/immigration-attitudes-and-the-2024-election/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Mass deportation support",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/06/06/immigration-attitudes-and-the-2024-election/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "June 2024 politics ATP wave; methodology embedded; aligns with deportation/border lens for post-election 2026 repeat"
+    },
+    {
+      "id": "inflation-healthcare-costs-2024",
+      "title": "Views on Inflation and Costs",
+      "series_hypothesis": "Pew's periodic cost-of-living surveys cover inflation/jobs/healthcare",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/short-reads/2024/02/29/americans-financial-troubles-have-eased-but-persistent-inflation-is-key-concern/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/short-reads/2024/02/29/methodology-3/"
+      ],
+      "expected_next_window": "June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Financial situation change",
+          "question_text_verbatim": "Compared with a year ago, do you feel that you and your family are financially better off, worse off, or about the same?",
+          "response_options_verbatim": "Better off, Worse off, About the same",
+          "source_url_for_wording": "https://www.pewresearch.org/short-reads/2024/02/29/americans-financial-troubles-have-eased-but-persistent-inflation-is-key-concern/"
+        },
+        {
+          "item_label": "Inflation worry",
+          "question_text_verbatim": "How much of a problem do you think rising prices for food and consumer goods are in the country today?",
+          "response_options_verbatim": "Major problem, Minor problem, Not a problem",
+          "source_url_for_wording": "https://www.pewresearch.org/short-reads/2024/02/29/americans-financial-troubles-have-eased-but-persistent-inflation-is-key-concern/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Verbatim from Feb 2024 short read; ATP survey. Series likely repeats summer 2025/2026 for pocketbook lens."
+    },
+    {
+      "id": "iran-military-action-2026",
+      "title": "US Views on Iran Military Action",
+      "series_hypothesis": "Pew tracks partisan approval of presidential foreign policy decisions annually",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2026/03/25/iran-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2026/03/25/iran-methodology/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Approval of military action against Iran",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2026/03/25/iran-methodology/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Anchored to March 2026 ATP Wave 189 methodology; verbatim wording likely in full report or topline PDF appendix at pewresearch.org/politics/2026/03/25/iran-full-report/"
+    },
+    {
+      "id": "israel-gaza-us-support-2025",
+      "title": "American Attitudes on US Support for Israel in Gaza",
+      "series_hypothesis": "Pew's ongoing global attitudes series repeats Israel-Palestine questions amid conflicts",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/topic/international-affairs/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/global/2025/xx/xx/israel-gaza-methodology/"
+      ],
+      "expected_next_window": "late May 2026",
+      "extractable_items": [
+        {
+          "item_label": "US support for Israel's military campaign",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/topic/international-affairs/"
+        }
+      ],
+      "confidence": "low",
+      "notes": "Inferred from topic page snippets on Israel/Gaza; check 2025 Spring ATP wave full report for methodology and topline with verbatim questions"
+    },
+    {
+      "id": "latinos-immigration-views-2024",
+      "title": "Latinos' Views on Immigration 2024",
+      "series_hypothesis": "Periodic Latino-focused immigration polling via ATP",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/2024/03/04/latinos-views-of-immigration-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/2024/03/04/latinos-views-of-immigration-methodology/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Border security measures",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/2024/03/04/latinos-views-of-immigration/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "ATP survey early 2024, n=5,140; check report for deportation/pathway items; Spanish/English ATP enables 2026 benchmark"
+    },
+    {
+      "id": "long-covid-experiences-2024",
+      "title": "Long COVID Experiences",
+      "series_hypothesis": "Pew tracks ongoing health impacts of COVID as part of retrospective pandemic assessments",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Long COVID prevalence",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "No verbatim question wording in article; check full topline/PDF appendix for Oct 2024 survey of 9,593 U.S. adults on COVID health impacts including long COVID symptoms"
+    },
+    {
+      "id": "nato-views-us-2025",
+      "title": "US and Global Views on NATO",
+      "series_hypothesis": "Annual Pew NATO survey in high-geopolitical years for alliance benchmarking",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/topic/international-affairs/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/global/2025/xx/xx/nato-methodology/"
+      ],
+      "expected_next_window": "June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Favorability of NATO",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/topic/international-affairs/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Based on recurring international affairs topic page; prior 2024-2025 waves have standard methodology pages with question appendices"
+    },
+    {
+      "id": "news-influencers-social-media-2024",
+      "title": "News Influencers on Social Media: Trust & Consumption",
+      "series_hypothesis": "Pew tracks news influencer reach and audience trust annually to monitor platform-driven misinformation and alternative news sources.",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/"
+      ],
+      "expected_next_window": "October\u2013November 2026 (anniversary cycle)",
+      "extractable_items": [
+        {
+          "item_label": "ATP survey on news influencer awareness and trust (Wave 150)",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/ (July 15\u2013Aug 4, 2024; see topline for exact wording)"
+        },
+        {
+          "item_label": "Social media post analysis (TikTok, X, Facebook, Instagram)",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/ (three time periods in 2024; methodology appendix for coding scheme)"
+        },
+        {
+          "item_label": "News consumption via influencers vs. traditional outlets",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/ (ATP Wave 150 questions in full report)"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Confirmed November 2024 publication; combines ATP nationally representative survey (Wave 150, July\u2013Aug 2024) with social media content analysis. Exact survey questions and response options in full report. Expect 2025 or 2026 repeat wave."
+    },
+    {
+      "id": "npors-party-affiliation-2025",
+      "title": "Party Affiliation Trends (NPORS)",
+      "series_hypothesis": "Annual benchmark of partisan identification and leaning for tracking balance between parties",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/"
+      ],
+      "expected_next_window": "Feb-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Party ID and leaning",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/methodology/u-s-surveys/national-public-opinion-reference-survey-npors/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "NPORS conducted Feb 5-Jun 18 2025 among 5,022 adults; methodology links to standard NPORS question bank for verbatim wording in appendices"
+    },
+    {
+      "id": "party-favorability-2024",
+      "title": "Views of Republican and Democratic Parties Favorability",
+      "series_hypothesis": "Ongoing tracking of favorable/unfavorable ratings of major parties amid polarization",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/07/11/joe-bidens-job-approval-views-of-the-republican-and-democratic-parties/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/07/11/joe-bidens-job-approval-views-of-the-republican-and-democratic-parties/"
+      ],
+      "expected_next_window": "Summer 2026",
+      "extractable_items": [
+        {
+          "item_label": "Favorable/unfavorable view of Republican Party",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "Standard Pew party thermometer or favorability question in methodology section"
+        }
+      ],
+      "confidence": "high",
+      "notes": "July 2024 survey; standard Pew favorability items repeated across political surveys; check topline for exact wording"
+    },
+    {
+      "id": "party-feelings-2025",
+      "title": "Feelings Toward Republican and Democratic Parties",
+      "series_hypothesis": "Repeated measures of emotions like hopeful, proud, frustrated toward parties to gauge partisan sentiment shifts",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2025/10/30/how-americans-feel-about-the-republican-and-democratic-parties/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2025/10/30/how-americans-feel-about-the-republican-and-democratic-parties/"
+      ],
+      "expected_next_window": "Fall 2026",
+      "extractable_items": [
+        {
+          "item_label": "Party makes me feel hopeful/proud/frustrated/angry",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "Full topline/methodology PDF linked on page"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Survey Sept 22-28 2025; compares to 2021; verbatim in survey appendix or topline PDF"
+    },
+    {
+      "id": "policy-priorities-2024-atp",
+      "title": "Policy Priorities 2024",
+      "series_hypothesis": "Annual spring U.S. policy priorities survey via ATP, tracking government focus areas",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Top policy priorities",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Feb 2024 ATP release; classic priorities battery; wording in full report appendix or topline PDF"
+    },
+    {
+      "id": "policy-priorities-moral-values-2024",
+      "title": "Policy Priorities & Moral Values",
+      "series_hypothesis": "Pew's annual policy priorities survey captures moral and value-based attitudes toward government, family, and social issues; repeated annually for trend tracking",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+      ],
+      "expected_next_window": "February\u2013March 2026 (annual early-year cycle; may have already occurred)",
+      "extractable_items": [
+        {
+          "item_label": "Top policy priorities",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/ \u2014 full report"
+        },
+        {
+          "item_label": "Family and social values priorities",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/ \u2014 appendix or demographic breakdowns"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Wave 140, Jan 16\u201321, 2024. ATP panel with oversamples of non-Hispanic Asian, Black men, and Hispanic men. Nationally representative base. Topline report URL needed for verbatim question text. Note: 2026 wave may have already published (Feb\u2013Mar 2026); verify current availability."
+    },
+    {
+      "id": "political-parties-2025-wave-180",
+      "title": "Political Parties 2025",
+      "series_hypothesis": "Pew's ongoing ATP waves track partisan divides on national issues, repeating in spring cycles",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2025/10/30/political-parties-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2025/10/30/political-parties-methodology/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Party views on issues",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2025/10/30/political-parties-methodology/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Wave 180 Sept 2025 ATP; check full report/PDF appendix for verbatim batteries on government priorities or approval"
+    },
+    {
+      "id": "psychological-distress-pandemic-2022",
+      "title": "Psychological Distress During Pandemic",
+      "series_hypothesis": "Pew repeats mental health tracking tied to public health events like COVID",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/short-reads/2023/03/02/mental-health-and-the-pandemic-what-u-s-surveys-have-found/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/short-reads/2023/03/02/mental-health-and-the-pandemic-what-u-s-surveys-have-found/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "High psychological distress",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/short-reads/2023/03/02/mental-health-and-the-pandemic-what-u-s-surveys-have-found/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Aggregates four Pew surveys March 2020-Sept 2022; no verbatim wording shown; check individual survey methodologies/PDFs for exact question on psychological distress levels"
+    },
+    {
+      "id": "teens-social-media-tech-2024",
+      "title": "Teens Social Media Technology",
+      "series_hypothesis": "Annual teen tech adoption survey repeated for AI/privacy trends",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-tech-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-tech-methodology/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Teen platform usage",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-tech-methodology/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Sept-Oct 2024 Ipsos dyads; aligns tech lens, prior waves have detailed appendices"
+    },
+    {
+      "id": "trump-harris-policy-2024-wave-153",
+      "title": "Trump-Harris Policy Views 2024",
+      "series_hypothesis": "Election-year policy priority batteries recur in subsequent spring waves on national problems",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/09/25/trump-harris-policy-aug-sept-2024-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/09/25/trump-harris-policy-aug-sept-2024-methodology/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Policy priorities",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/09/25/trump-harris-policy-aug-sept-2024-methodology/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Wave 153 Aug-Sept 2024 ATP; likely repeats voter priorities battery; verify topline/PDF for wording"
+    },
+    {
+      "id": "trust-in-science-2024",
+      "title": "Trust in Science",
+      "series_hypothesis": "Recurring ATP wave tracking public confidence in scientists and science institutions",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Trust in scientists",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Wave 158 ATP Oct 2024; verbatim in full topline/PDF appendix likely at main report URL"
+    },
+    {
+      "id": "trust-in-science-moral-attitudes-2024",
+      "title": "Trust in Science & Institutional Confidence",
+      "series_hypothesis": "Pew tracks science trust and institutional confidence annually via ATP; reflects moral/value-based attitudes toward expertise and authority",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+      ],
+      "expected_next_window": "October\u2013November 2026 (annual autumn cycle)",
+      "extractable_items": [
+        {
+          "item_label": "Trust in scientists",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/ \u2014 full report for verbatim scales"
+        },
+        {
+          "item_label": "Confidence in institutions",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/ \u2014 appendix"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Wave 158, Oct 21\u201327, 2024. ATP panel, 9,593 respondents, 90% response rate (AAPOR RR3). Nationally representative. Topline report URL needed for exact question wording and Likert/categorical response options."
+    },
+    {
+      "id": "value-of-college-attitudes-2024",
+      "title": "Value of College & Educational Attitudes",
+      "series_hypothesis": "Pew repeats ATP waves on educational value and family priorities annually; moral/practical attitudes toward higher education reflect broader value shifts",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+      ],
+      "expected_next_window": "May\u2013June 2026 (annual spring cycle)",
+      "extractable_items": [
+        {
+          "item_label": "College value perception",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/ \u2014 full topline report needed for verbatim wording"
+        },
+        {
+          "item_label": "Family priorities and education",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/ \u2014 appendix or full report"
+        }
+      ],
+      "confidence": "high",
+      "notes": "ATP panel, nationally representative. Methodology page confirms Ipsos management and bilingual administration. Topline report URL needed to extract verbatim question text and response scales. Expect repeat wave May\u2013June 2026."
+    },
+    {
+      "id": "value-of-college-degree-2024",
+      "title": "Value of College",
+      "series_hypothesis": "Biennial/annual ATP series on higher education perceptions amid tech/economic shifts",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "College worth cost",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "ATP May 2024 timing fits forward benchmark; check main report for question appendix"
+    },
+    {
+      "id": "views-nations-economy-may-2024",
+      "title": "Views of the Nation's Economy",
+      "series_hypothesis": "Pew's recurring U.S. political surveys track economic perceptions amid elections",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/#methodology"
+      ],
+      "expected_next_window": "May/June 2026",
+      "extractable_items": [
+        {
+          "item_label": "National economy rating",
+          "question_text_verbatim": "In general, how would you rate the condition of the nation's economy these days?",
+          "response_options_verbatim": "Excellent, Good, Only fair, Poor",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/"
+        },
+        {
+          "item_label": "Personal finances rating",
+          "question_text_verbatim": "And how would you rate your own personal financial situation these days?",
+          "response_options_verbatim": "Excellent, Good, Only fair, Poor",
+          "source_url_for_wording": "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Directly from Pew May 2024 page; standard wording in spring political surveys. Methodology confirms American Trends Panel (ATP) telephone/web survey."
+    },
+    {
+      "id": "voters-immigration-2024-wave151",
+      "title": "Voters' Immigration Views 2024",
+      "series_hypothesis": "ATP recurring election-year immigration attitudes tracking",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/race-and-ethnicity/2024/09/27/voters-on-immigration-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/race-and-ethnicity/2024/09/27/voters-on-immigration-methodology/"
+      ],
+      "expected_next_window": "May-June 2026",
+      "extractable_items": [
+        {
+          "item_label": "Deportation priority",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/race-and-ethnicity/2024/09/27/voters-on-immigration/"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Wave 151 ATP Aug 2024; verbatim in full report/topline PDF appendix; recurring ATP series supports 2026 repeat"
+    },
+    {
+      "id": "what-is-news-2025",
+      "title": "What Is News? Methodology & Findings",
+      "series_hypothesis": "Pew repeats this multimethod study annually to track evolving definitions of 'news' among Americans and journalist perspectives on audience understanding.",
+      "prior_year_public_urls": [
+        "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/"
+      ],
+      "methodology_urls": [
+        "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/"
+      ],
+      "expected_next_window": "May\u2013June 2026 (anniversary cycle)",
+      "extractable_items": [
+        {
+          "item_label": "News definition perception (qualitative)",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/ (see full report for verbatim; qualitative discussion board data)"
+        },
+        {
+          "item_label": "ATP nationally representative survey (9,482 adults)",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/ (ATP Wave number and exact questions in topline report)"
+        },
+        {
+          "item_label": "Journalist/editor perspectives on audience news literacy",
+          "question_text_verbatim": "",
+          "response_options_verbatim": "",
+          "source_url_for_wording": "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/ (13 on-record interviews, July\u2013Sept 2024)"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Confirmed 2025 publication; multimethod design (qualitative + ATP + interviews). Exact survey questions and response options available in full topline report linked from methodology page. Expect 2026 wave May\u2013June based on 2025 timing."
+    }
+  ],
+  "raw_passes": [
+    {
+      "pass_id": "may_politics_priorities",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "political-parties-2025-wave-180",
+          "title": "Political Parties 2025",
+          "series_hypothesis": "Pew's ongoing ATP waves track partisan divides on national issues, repeating in spring cycles",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2025/10/30/political-parties-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2025/10/30/political-parties-methodology/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Party views on issues",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2025/10/30/political-parties-methodology/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Wave 180 Sept 2025 ATP; check full report/PDF appendix for verbatim batteries on government priorities or approval"
+        },
+        {
+          "id": "trump-harris-policy-2024-wave-153",
+          "title": "Trump-Harris Policy Views 2024",
+          "series_hypothesis": "Election-year policy priority batteries recur in subsequent spring waves on national problems",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/09/25/trump-harris-policy-aug-sept-2024-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/09/25/trump-harris-policy-aug-sept-2024-methodology/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Policy priorities",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/09/25/trump-harris-policy-aug-sept-2024-methodology/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Wave 153 Aug-Sept 2024 ATP; likely repeats voter priorities battery; verify topline/PDF for wording"
+        },
+        {
+          "id": "policy-priorities-2024-atp",
+          "title": "Policy Priorities 2024",
+          "series_hypothesis": "Annual spring U.S. policy priorities survey via ATP, tracking government focus areas",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Top policy priorities",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Feb 2024 ATP release; classic priorities battery; wording in full report appendix or topline PDF"
+        }
+      ]
+    },
+    {
+      "pass_id": "immigration_deportations",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "voters-immigration-2024-wave151",
+          "title": "Voters' Immigration Views 2024",
+          "series_hypothesis": "ATP recurring election-year immigration attitudes tracking",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/race-and-ethnicity/2024/09/27/voters-on-immigration-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/race-and-ethnicity/2024/09/27/voters-on-immigration-methodology/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Deportation priority",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/race-and-ethnicity/2024/09/27/voters-on-immigration/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Wave 151 ATP Aug 2024; verbatim in full report/topline PDF appendix; recurring ATP series supports 2026 repeat"
+        },
+        {
+          "id": "latinos-immigration-views-2024",
+          "title": "Latinos' Views on Immigration 2024",
+          "series_hypothesis": "Periodic Latino-focused immigration polling via ATP",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/2024/03/04/latinos-views-of-immigration-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/2024/03/04/latinos-views-of-immigration-methodology/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Border security measures",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/2024/03/04/latinos-views-of-immigration/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "ATP survey early 2024, n=5,140; check report for deportation/pathway items; Spanish/English ATP enables 2026 benchmark"
+        },
+        {
+          "id": "immigration-attitudes-2024-election",
+          "title": "Immigration Attitudes 2024 Election",
+          "series_hypothesis": "Election cycle immigration trends via ATP",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/06/06/immigration-attitudes-and-the-2024-election/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/06/06/immigration-attitudes-and-the-2024-election/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Mass deportation support",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/06/06/immigration-attitudes-and-the-2024-election/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "June 2024 politics ATP wave; methodology embedded; aligns with deportation/border lens for post-election 2026 repeat"
+        }
+      ]
+    },
+    {
+      "pass_id": "foreign_policy_military",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "iran-military-action-2026",
+          "title": "US Views on Iran Military Action",
+          "series_hypothesis": "Pew tracks partisan approval of presidential foreign policy decisions annually",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2026/03/25/iran-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2026/03/25/iran-methodology/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Approval of military action against Iran",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2026/03/25/iran-methodology/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Anchored to March 2026 ATP Wave 189 methodology; verbatim wording likely in full report or topline PDF appendix at pewresearch.org/politics/2026/03/25/iran-full-report/"
+        },
+        {
+          "id": "israel-gaza-us-support-2025",
+          "title": "American Attitudes on US Support for Israel in Gaza",
+          "series_hypothesis": "Pew's ongoing global attitudes series repeats Israel-Palestine questions amid conflicts",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/topic/international-affairs/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/global/2025/xx/xx/israel-gaza-methodology/"
+          ],
+          "expected_next_window": "late May 2026",
+          "extractable_items": [
+            {
+              "item_label": "US support for Israel's military campaign",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/topic/international-affairs/"
+            }
+          ],
+          "confidence": "low",
+          "notes": "Inferred from topic page snippets on Israel/Gaza; check 2025 Spring ATP wave full report for methodology and topline with verbatim questions"
+        },
+        {
+          "id": "nato-views-us-2025",
+          "title": "US and Global Views on NATO",
+          "series_hypothesis": "Annual Pew NATO survey in high-geopolitical years for alliance benchmarking",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/topic/international-affairs/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/global/2025/xx/xx/nato-methodology/"
+          ],
+          "expected_next_window": "June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Favorability of NATO",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/topic/international-affairs/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Based on recurring international affairs topic page; prior 2024-2025 waves have standard methodology pages with question appendices"
+        }
+      ]
+    },
+    {
+      "pass_id": "economy_pocketbook",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "views-nations-economy-may-2024",
+          "title": "Views of the Nation's Economy",
+          "series_hypothesis": "Pew's recurring U.S. political surveys track economic perceptions amid elections",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/#methodology"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "National economy rating",
+              "question_text_verbatim": "In general, how would you rate the condition of the nation's economy these days?",
+              "response_options_verbatim": "Excellent, Good, Only fair, Poor",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/"
+            },
+            {
+              "item_label": "Personal finances rating",
+              "question_text_verbatim": "And how would you rate your own personal financial situation these days?",
+              "response_options_verbatim": "Excellent, Good, Only fair, Poor",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/05/23/views-of-the-nations-economy-may-2024/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Directly from Pew May 2024 page; standard wording in spring political surveys. Methodology confirms American Trends Panel (ATP) telephone/web survey."
+        },
+        {
+          "id": "economic-issues-voter-concerns-2024",
+          "title": "Economic Ratings and Issues",
+          "series_hypothesis": "Pew repeats economy pocketbook questions in pre-election issue priority polls",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/09/09/in-tight-presidential-race-biden-and-trump-have-contrasting-visions-for-the-future/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/09/09/methodology-23/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Most important problem",
+              "question_text_verbatim": "What do you think is the most important problem facing the country today?",
+              "response_options_verbatim": "Open-ended; top codes include economy, inflation",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/09/09/in-tight-presidential-race-biden-and-trump-have-contrasting-visions-for-the-future/"
+            },
+            {
+              "item_label": "Pocketbook concerns",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": ""
+            }
+          ],
+          "confidence": "medium",
+          "notes": "2024 election cycle survey; verbatim in topline PDF appendix at methodology link. Expect similar in 2026 midterm tracking."
+        },
+        {
+          "id": "inflation-healthcare-costs-2024",
+          "title": "Views on Inflation and Costs",
+          "series_hypothesis": "Pew's periodic cost-of-living surveys cover inflation/jobs/healthcare",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/short-reads/2024/02/29/americans-financial-troubles-have-eased-but-persistent-inflation-is-key-concern/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/short-reads/2024/02/29/methodology-3/"
+          ],
+          "expected_next_window": "June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Financial situation change",
+              "question_text_verbatim": "Compared with a year ago, do you feel that you and your family are financially better off, worse off, or about the same?",
+              "response_options_verbatim": "Better off, Worse off, About the same",
+              "source_url_for_wording": "https://www.pewresearch.org/short-reads/2024/02/29/americans-financial-troubles-have-eased-but-persistent-inflation-is-key-concern/"
+            },
+            {
+              "item_label": "Inflation worry",
+              "question_text_verbatim": "How much of a problem do you think rising prices for food and consumer goods are in the country today?",
+              "response_options_verbatim": "Major problem, Minor problem, Not a problem",
+              "source_url_for_wording": "https://www.pewresearch.org/short-reads/2024/02/29/americans-financial-troubles-have-eased-but-persistent-inflation-is-key-concern/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Verbatim from Feb 2024 short read; ATP survey. Series likely repeats summer 2025/2026 for pocketbook lens."
+        }
+      ]
+    },
+    {
+      "pass_id": "social_values_religion",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "value-of-college-attitudes-2024",
+          "title": "Value of College & Educational Attitudes",
+          "series_hypothesis": "Pew repeats ATP waves on educational value and family priorities annually; moral/practical attitudes toward higher education reflect broader value shifts",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+          ],
+          "expected_next_window": "May\u2013June 2026 (annual spring cycle)",
+          "extractable_items": [
+            {
+              "item_label": "College value perception",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/ \u2014 full topline report needed for verbatim wording"
+            },
+            {
+              "item_label": "Family priorities and education",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/ \u2014 appendix or full report"
+            }
+          ],
+          "confidence": "high",
+          "notes": "ATP panel, nationally representative. Methodology page confirms Ipsos management and bilingual administration. Topline report URL needed to extract verbatim question text and response scales. Expect repeat wave May\u2013June 2026."
+        },
+        {
+          "id": "trust-in-science-moral-attitudes-2024",
+          "title": "Trust in Science & Institutional Confidence",
+          "series_hypothesis": "Pew tracks science trust and institutional confidence annually via ATP; reflects moral/value-based attitudes toward expertise and authority",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+          ],
+          "expected_next_window": "October\u2013November 2026 (annual autumn cycle)",
+          "extractable_items": [
+            {
+              "item_label": "Trust in scientists",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/ \u2014 full report for verbatim scales"
+            },
+            {
+              "item_label": "Confidence in institutions",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/ \u2014 appendix"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Wave 158, Oct 21\u201327, 2024. ATP panel, 9,593 respondents, 90% response rate (AAPOR RR3). Nationally representative. Topline report URL needed for exact question wording and Likert/categorical response options."
+        },
+        {
+          "id": "policy-priorities-moral-values-2024",
+          "title": "Policy Priorities & Moral Values",
+          "series_hypothesis": "Pew's annual policy priorities survey captures moral and value-based attitudes toward government, family, and social issues; repeated annually for trend tracking",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/"
+          ],
+          "expected_next_window": "February\u2013March 2026 (annual early-year cycle; may have already occurred)",
+          "extractable_items": [
+            {
+              "item_label": "Top policy priorities",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/ \u2014 full report"
+            },
+            {
+              "item_label": "Family and social values priorities",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2024/02/29/policy-priorities-2024-methodology/ \u2014 appendix or demographic breakdowns"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Wave 140, Jan 16\u201321, 2024. ATP panel with oversamples of non-Hispanic Asian, Black men, and Hispanic men. Nationally representative base. Topline report URL needed for verbatim question text. Note: 2026 wave may have already published (Feb\u2013Mar 2026); verify current availability."
+        }
+      ]
+    },
+    {
+      "pass_id": "media_trust_platforms",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "what-is-news-2025",
+          "title": "What Is News? Methodology & Findings",
+          "series_hypothesis": "Pew repeats this multimethod study annually to track evolving definitions of 'news' among Americans and journalist perspectives on audience understanding.",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/"
+          ],
+          "expected_next_window": "May\u2013June 2026 (anniversary cycle)",
+          "extractable_items": [
+            {
+              "item_label": "News definition perception (qualitative)",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/ (see full report for verbatim; qualitative discussion board data)"
+            },
+            {
+              "item_label": "ATP nationally representative survey (9,482 adults)",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/ (ATP Wave number and exact questions in topline report)"
+            },
+            {
+              "item_label": "Journalist/editor perspectives on audience news literacy",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/2025/05/13/what-is-news-methodology/ (13 on-record interviews, July\u2013Sept 2024)"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Confirmed 2025 publication; multimethod design (qualitative + ATP + interviews). Exact survey questions and response options available in full topline report linked from methodology page. Expect 2026 wave May\u2013June based on 2025 timing."
+        },
+        {
+          "id": "news-influencers-social-media-2024",
+          "title": "News Influencers on Social Media: Trust & Consumption",
+          "series_hypothesis": "Pew tracks news influencer reach and audience trust annually to monitor platform-driven misinformation and alternative news sources.",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/"
+          ],
+          "expected_next_window": "October\u2013November 2026 (anniversary cycle)",
+          "extractable_items": [
+            {
+              "item_label": "ATP survey on news influencer awareness and trust (Wave 150)",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/ (July 15\u2013Aug 4, 2024; see topline for exact wording)"
+            },
+            {
+              "item_label": "Social media post analysis (TikTok, X, Facebook, Instagram)",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/ (three time periods in 2024; methodology appendix for coding scheme)"
+            },
+            {
+              "item_label": "News consumption via influencers vs. traditional outlets",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/11/18/news-influencers-methodology/ (ATP Wave 150 questions in full report)"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Confirmed November 2024 publication; combines ATP nationally representative survey (Wave 150, July\u2013Aug 2024) with social media content analysis. Exact survey questions and response options in full report. Expect 2025 or 2026 repeat wave."
+        },
+        {
+          "id": "election-news-consumption-2024",
+          "title": "2024 Election News Consumption & Trust",
+          "series_hypothesis": "Pew repeats election-cycle news consumption studies to benchmark trust, platform reliance, and misinformation exposure during high-stakes political periods.",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/"
+          ],
+          "expected_next_window": "May\u2013June 2026 (mid-cycle benchmark or 2028 election prep)",
+          "extractable_items": [
+            {
+              "item_label": "Election news sources and platforms (ATP Wave 155)",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/ (Sept 16\u201322, 2024; see topline for exact wording)"
+            },
+            {
+              "item_label": "Trust in election news coverage by outlet type",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/ (ATP Wave 155 questions in full report)"
+            },
+            {
+              "item_label": "Misinformation exposure and fact-checking awareness",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/journalism/2024/10/10/2024-election-news-methodology/ (see full report for detailed question wording)"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Confirmed October 2024 publication; ATP Wave 155 (Sept 16\u201322, 2024). Exact survey questions and response options in full topline report. May repeat in 2026 as mid-cycle benchmark or 2028 election prep cycle."
+        }
+      ]
+    },
+    {
+      "pass_id": "science_ai_tech",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "trust-in-science-2024",
+          "title": "Trust in Science",
+          "series_hypothesis": "Recurring ATP wave tracking public confidence in scientists and science institutions",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Trust in scientists",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/science/2024/11/14/trust-in-science-2024-methodology/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Wave 158 ATP Oct 2024; verbatim in full topline/PDF appendix likely at main report URL"
+        },
+        {
+          "id": "value-of-college-degree-2024",
+          "title": "Value of College",
+          "series_hypothesis": "Biennial/annual ATP series on higher education perceptions amid tech/economic shifts",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "College worth cost",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/social-trends/2024/05/23/value-of-college-methodology/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "ATP May 2024 timing fits forward benchmark; check main report for question appendix"
+        },
+        {
+          "id": "teens-social-media-tech-2024",
+          "title": "Teens Social Media Technology",
+          "series_hypothesis": "Annual teen tech adoption survey repeated for AI/privacy trends",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-tech-methodology/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-tech-methodology/"
+          ],
+          "expected_next_window": "May/June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Teen platform usage",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-tech-methodology/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Sept-Oct 2024 Ipsos dyads; aligns tech lens, prior waves have detailed appendices"
+        }
+      ]
+    },
+    {
+      "pass_id": "democracy_institutions",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "democracy-satisfaction-high-income-2025",
+          "title": "Dissatisfaction with democracy in high-income nations",
+          "series_hypothesis": "Pew tracks satisfaction trends in advanced democracies annually to monitor political trust amid elections and economic shifts",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/short-reads/2025/06/30/dissatisfaction-with-democracy-remains-widespread-in-many-nations/",
+            "https://www.pewresearch.org/short-reads/2024/06/18/satisfaction-with-democracy-has-declined-in-recent-years-in-high-income-nations/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Satisfaction with democracy",
+              "question_text_verbatim": "How satisfied are you with the way democracy is working in our country?",
+              "response_options_verbatim": "Very satisfied, Somewhat satisfied, Somewhat dissatisfied, Very dissatisfied",
+              "source_url_for_wording": "https://www.pewresearch.org/short-reads/2024/06/18/satisfaction-with-democracy-has-declined-in-recent-years-in-high-income-nations/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Verified consistent wording across 2017-2025 waves in 12 high-income countries including US; 2025 survey spring data with topline trends; methodology from 2023/24 Global Attitudes Survey matches series"
+        },
+        {
+          "id": "global-democracy-satisfaction-2024",
+          "title": "Satisfaction with democracy across 24 nations",
+          "series_hypothesis": "Pew's Global Attitudes Survey repeats democracy satisfaction to benchmark public support for representative systems worldwide",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/global/2024/02/28/satisfaction-with-democracy-and-ratings-for-political-leaders-parties/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+          ],
+          "expected_next_window": "Spring 2026",
+          "extractable_items": [
+            {
+              "item_label": "Democracy functioning satisfaction",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "2023/24 Spring Global Attitudes Survey (24 countries incl. US); exact wording in topline charts and PDF appendix; links to prior waves via methodology page"
+        },
+        {
+          "id": "democracy-improvement-views-2024",
+          "title": "Views on improving democracy",
+          "series_hypothesis": "Pew follows up satisfaction measures with open/closed items on democratic reforms to track evolving priorities",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/global/2024/03/13/what-can-improve-democracy/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/global/2024/02/28/methodology-democracy-closed-end/"
+          ],
+          "expected_next_window": "Spring 2026",
+          "extractable_items": [
+            {
+              "item_label": "Ways to strengthen democracy",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/global/2024/03/13/what-can-improve-democracy/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Same 2024 Global Attitudes wave as satisfaction study (24 countries); verbatim in survey topline/PDF; suitable for forward US/international institutional trust benchmarks"
+        }
+      ]
+    },
+    {
+      "pass_id": "partisanship_parties",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "npors-party-affiliation-2025",
+          "title": "Party Affiliation Trends (NPORS)",
+          "series_hypothesis": "Annual benchmark of partisan identification and leaning for tracking balance between parties",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/"
+          ],
+          "expected_next_window": "Feb-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Party ID and leaning",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/methodology/u-s-surveys/national-public-opinion-reference-survey-npors/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "NPORS conducted Feb 5-Jun 18 2025 among 5,022 adults; methodology links to standard NPORS question bank for verbatim wording in appendices"
+        },
+        {
+          "id": "party-feelings-2025",
+          "title": "Feelings Toward Republican and Democratic Parties",
+          "series_hypothesis": "Repeated measures of emotions like hopeful, proud, frustrated toward parties to gauge partisan sentiment shifts",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2025/10/30/how-americans-feel-about-the-republican-and-democratic-parties/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2025/10/30/how-americans-feel-about-the-republican-and-democratic-parties/"
+          ],
+          "expected_next_window": "Fall 2026",
+          "extractable_items": [
+            {
+              "item_label": "Party makes me feel hopeful/proud/frustrated/angry",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "Full topline/methodology PDF linked on page"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Survey Sept 22-28 2025; compares to 2021; verbatim in survey appendix or topline PDF"
+        },
+        {
+          "id": "party-favorability-2024",
+          "title": "Views of Republican and Democratic Parties Favorability",
+          "series_hypothesis": "Ongoing tracking of favorable/unfavorable ratings of major parties amid polarization",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2024/07/11/joe-bidens-job-approval-views-of-the-republican-and-democratic-parties/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2024/07/11/joe-bidens-job-approval-views-of-the-republican-and-democratic-parties/"
+          ],
+          "expected_next_window": "Summer 2026",
+          "extractable_items": [
+            {
+              "item_label": "Favorable/unfavorable view of Republican Party",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "Standard Pew party thermometer or favorability question in methodology section"
+            }
+          ],
+          "confidence": "high",
+          "notes": "July 2024 survey; standard Pew favorability items repeated across political surveys; check topline for exact wording"
+        }
+      ]
+    },
+    {
+      "pass_id": "health_covid_longrun",
+      "generated_at": "2026-05-11",
+      "model": "perplexity/sonar",
+      "studies": [
+        {
+          "id": "long-covid-experiences-2024",
+          "title": "Long COVID Experiences",
+          "series_hypothesis": "Pew tracks ongoing health impacts of COVID as part of retrospective pandemic assessments",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Long COVID prevalence",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "No verbatim question wording in article; check full topline/PDF appendix for Oct 2024 survey of 9,593 U.S. adults on COVID health impacts including long COVID symptoms"
+        },
+        {
+          "id": "covid-vaccine-intentions-2024",
+          "title": "COVID Vaccine Intentions",
+          "series_hypothesis": "Pew annually benchmarks vaccine uptake and attitudes post-pandemic rollout",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "Plans for updated COVID vaccine",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/politics/2025/02/12/5-years-later-america-looks-back-at-the-impact-of-covid-19/"
+            }
+          ],
+          "confidence": "high",
+          "notes": "Reported topline stats from Oct 2024 survey; methodology links to survey of 9,593 adults; prior 2023 survey referenced for comparison; verbatim in topline PDF likely"
+        },
+        {
+          "id": "psychological-distress-pandemic-2022",
+          "title": "Psychological Distress During Pandemic",
+          "series_hypothesis": "Pew repeats mental health tracking tied to public health events like COVID",
+          "prior_year_public_urls": [
+            "https://www.pewresearch.org/short-reads/2023/03/02/mental-health-and-the-pandemic-what-u-s-surveys-have-found/"
+          ],
+          "methodology_urls": [
+            "https://www.pewresearch.org/short-reads/2023/03/02/mental-health-and-the-pandemic-what-u-s-surveys-have-found/"
+          ],
+          "expected_next_window": "May-June 2026",
+          "extractable_items": [
+            {
+              "item_label": "High psychological distress",
+              "question_text_verbatim": "",
+              "response_options_verbatim": "",
+              "source_url_for_wording": "https://www.pewresearch.org/short-reads/2023/03/02/mental-health-and-the-pandemic-what-u-s-surveys-have-found/"
+            }
+          ],
+          "confidence": "medium",
+          "notes": "Aggregates four Pew surveys March 2020-Sept 2022; no verbatim wording shown; check individual survey methodologies/PDFs for exact question on psychological distress levels"
+        }
+      ]
+    }
+  ]
+}

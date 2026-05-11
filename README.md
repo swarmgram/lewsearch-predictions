@@ -37,8 +37,17 @@ Optional: **parallel forms** and **age/geo brackets** to bracket wording sensiti
 Requires `OPENROUTER_API_KEY` in the environment.
 
 ```bash
-export OPENROUTER_API_KEY="..."
+export API_ROUTER_KEY_PLAIN="..."   # or OPENROUTER_API_KEY
 python3 scripts/discover_pew_benchmarks.py --out candidates/discovered_$(date +%Y%m%d).json
+```
+
+### Ten-pass Sonar batch (recommended)
+
+Runs **10 sequential lenses** × **3 studies each** (30 rows, deduped by `id`), merges into one JSON with `raw_passes` preserved for audit.
+
+```bash
+export API_ROUTER_KEY_PLAIN="..."
+python3 scripts/run_sonar_pew_discovery_batch.py --out candidates/discovered_sonar_batch_$(date +%Y%m%d).json
 ```
 
 Review JSON before promoting rows into `benchmark_candidates_*.json`.

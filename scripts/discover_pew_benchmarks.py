@@ -68,9 +68,9 @@ Rules:
 
 
 def openrouter_chat(model: str, user_prompt: str) -> str:
-    key = os.environ.get("OPENROUTER_API_KEY")
+    key = os.environ.get("API_ROUTER_KEY_PLAIN") or os.environ.get("OPENROUTER_API_KEY")
     if not key:
-        print("Missing OPENROUTER_API_KEY", file=sys.stderr)
+        print("Missing API_ROUTER_KEY_PLAIN or OPENROUTER_API_KEY", file=sys.stderr)
         sys.exit(1)
 
     body = {
