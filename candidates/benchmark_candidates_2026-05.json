@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-11",
+  "notes": "Initial queue from public Pew May 2026 releases + expected follow-ups. Verify instrument text and population definition on Pew methodology pages before freezing runs.",
+  "candidates": [
+    {
+      "id": "national-problems-healthcare-deficit-inflation-2026-05",
+      "title": "National problems: healthcare, deficit, inflation",
+      "status": "released",
+      "priority": "P0",
+      "pew_public_urls": [
+        "https://www.pewresearch.org/politics/2026/05/11/americans-see-health-care-costs-deficit-inflation-as-big-problems-facing-the-nation/",
+        "https://www.pewresearch.org/politics/2026/05/11/may-2026-national-problems-methodology/"
+      ],
+      "why_benchmarkable": "Clean economic anxiety toplines; methodology page exists for population + dates.",
+      "population_public": "U.S. adults (confirm on methodology)",
+      "lewsearch_market_suggestion": ["Ohio", "Texas", "California"],
+      "wording_strategy": "exact_when_public_else_parallel_forms"
+    },
+    {
+      "id": "deportations-too-much-too-little-2026-05",
+      "title": "Deportations: too much / too little (Trump administration)",
+      "status": "released",
+      "priority": "P0",
+      "pew_public_urls": [
+        "https://www.pewresearch.org/short-reads/2026/05/04/about-half-of-americans-continue-to-say-trump-administration-is-doing-too-much-on-deportations/"
+      ],
+      "why_benchmarkable": "Single-issue attitude track; often repeatable series.",
+      "population_public": "U.S. adults (confirm dates on methodology when linked from article)",
+      "lewsearch_market_suggestion": ["Texas", "California", "New York"],
+      "wording_strategy": "exact_when_public_else_parallel_forms"
+    },
+    {
+      "id": "iran-military-force-2026-05",
+      "title": "Iran / military action views",
+      "status": "released",
+      "priority": "P0",
+      "pew_public_urls": [
+        "https://www.pewresearch.org/short-reads/2026/05/01/americans-remain-critical-of-trump-administrations-approach-to-iran/"
+      ],
+      "why_benchmarkable": "High-salience foreign policy; good test for news-context injection.",
+      "population_public": "U.S. adults",
+      "lewsearch_market_suggestion": ["New York", "Ohio", "Georgia"],
+      "wording_strategy": "parallel_forms_AB_context_sensitivity"
+    },
+    {
+      "id": "trump-approval-traits-parties-2026-05",
+      "title": "Trump approval, personal traits, party favorability",
+      "status": "released",
+      "priority": "P1",
+      "pew_public_urls": [
+        "https://www.pewresearch.org/politics/2026/05/01/trump-loses-ground-on-several-personal-traits-as-approval-rating-slips/",
+        "https://www.pewresearch.org/politics/2026/05/01/trump-approval-may-2026-methodology/"
+      ],
+      "why_benchmarkable": "Multi-item battery; pick 1–2 items for v1 to avoid scope explosion.",
+      "population_public": "U.S. adults (ATP wave per methodology)",
+      "lewsearch_market_suggestion": ["Ohio", "Georgia"],
+      "wording_strategy": "pick_single_item_exact_when_public"
+    },
+    {
+      "id": "party-favorability-2026-05",
+      "title": "Party favorability (both parties negative)",
+      "status": "released",
+      "priority": "P2",
+      "pew_public_urls": [
+        "https://www.pewresearch.org/politics/2026/05/01/americans-continue-to-view-both-the-republican-and-democratic-parties-negatively/"
+      ],
+      "why_benchmarkable": "Stable-ish favorability framing; useful for bracket vs traits story.",
+      "population_public": "U.S. adults",
+      "lewsearch_market_suggestion": ["Ohio", "Texas"],
+      "wording_strategy": "exact_when_public_else_parallel_forms"
+    },
+    {
+      "id": "social-media-health-followup",
+      "title": "Social media + health (expected follow-up / series)",
+      "status": "expected_followup",
+      "priority": "P1",
+      "pew_public_urls": [],
+      "why_benchmarkable": "If Pew releases a topline + methodology, strong fit for Lewsearch narrative tests.",
+      "population_public": "TBD from Pew methodology",
+      "lewsearch_market_suggestion": ["California", "New York"],
+      "wording_strategy": "parallel_forms_AB",
+      "risks": "Instrument may not be public immediately; do not guess wording."
+    },
+    {
+      "id": "home-insurance-energy-costs",
+      "title": "Home insurance + energy costs (expected follow-up)",
+      "status": "expected_followup",
+      "priority": "P1",
+      "pew_public_urls": [],
+      "why_benchmarkable": "Economic pain + household budgeting; good for state panels.",
+      "population_public": "TBD",
+      "lewsearch_market_suggestion": ["Texas", "California", "Ohio"],
+      "wording_strategy": "parallel_forms_AB",
+      "risks": "Homeowner vs renter framing may differ; match Pew population label exactly."
+    },
+    {
+      "id": "homosexuality-attitudes",
+      "title": "Attitudes on homosexuality (expected follow-up)",
+      "status": "expected_followup",
+      "priority": "P2",
+      "pew_public_urls": [],
+      "why_benchmarkable": "Sensitive social topic; test bracketing + age splits once Pew instrument public.",
+      "population_public": "TBD",
+      "lewsearch_market_suggestion": ["Georgia", "Ohio", "New York"],
+      "wording_strategy": "parallel_forms_AB_plus_age_brackets"
+    },
+    {
+      "id": "immigration-policy-broad",
+      "title": "Immigration policy (broad follow-up)",
+      "status": "expected_followup",
+      "priority": "P1",
+      "pew_public_urls": [],
+      "why_benchmarkable": "Often repeated; watch for new vs trend continuation wording.",
+      "population_public": "TBD",
+      "lewsearch_market_suggestion": ["Texas", "California"],
+      "wording_strategy": "parallel_forms_AB"
+    },
+    {
+      "id": "government-ethics-iran-combo",
+      "title": "Government ethics + Iran / military actions (combo track)",
+      "status": "expected_followup",
+      "priority": "P2",
+      "pew_public_urls": [],
+      "why_benchmarkable": "May split into separate items; use only if Pew bundles with clear items.",
+      "population_public": "TBD",
+      "lewsearch_market_suggestion": ["New York", "Ohio"],
+      "wording_strategy": "split_into_single_issue_items"
+    }
+  ]
+}
